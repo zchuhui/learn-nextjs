@@ -1,3 +1,8 @@
+import Link from 'next/link'
+
 export default () => (
-  <div>This is the about page.</div>
+  <div>
+    <Link href="/"><a>Index Page</a></Link>
+    <p>This is the about page.</p>
+  </div>
 )
